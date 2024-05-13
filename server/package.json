@@ -1,0 +1,26 @@
+{
+  "name": "vector-server",
+  "version": "0.0.0",
+  "description": "Vector server, database sold seperately",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tone-man/vector..git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "tone-man",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tone-man/vector./issues"
+  },
+  "homepage": "https://github.com/tone-man/vector.#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
