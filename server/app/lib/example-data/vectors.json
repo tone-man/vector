@@ -1,0 +1,34 @@
+{
+    "vectors": [
+        {
+            "vector_id": 1,
+            "habit": "take a deep breath",
+            "queue": "every day at 6 am",
+            "motivation": "a morning person"
+        },
+        {
+            "vector_id": 2,
+            "habit": "plan my next two hours",
+            "queue": "the first time I sit at my desk",
+            "motivation": "an organized person"
+        },
+        {
+            "vector_id": 3,
+            "habit": "do the downward dog for 1 minute",
+            "queue": "after my deep breath",
+            "motivation": "a morning person"
+        },
+        {
+            "vector_id": 4,
+            "habit": "complete a leetcode problem",
+            "queue": "every lunch hour",
+            "motivation": "an expert programmer"
+        },
+        {
+            "vector_id": 5,
+            "habit": "write one line of vector.",
+            "queue": "when I am bored",
+            "motivation": "a better developer"
+        }
+    ]
+}
