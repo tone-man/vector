@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Vector.</title>
+      </head>
       <body>{children}</body>
     </html>
   );

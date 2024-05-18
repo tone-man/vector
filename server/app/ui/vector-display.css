@@ -1,0 +1,41 @@
+.vector {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vector__ring {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed black;
+    border-radius: 100%;
+    animation: spin 10s infinite linear;
+}
+
+
+.vector__ring:hover {
+    animation: spin 7s infinite linear; 
+}
+
+.vector__dot {
+    height: 10%;
+    width: 10%;
+    background-color: black;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
