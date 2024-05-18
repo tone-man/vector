@@ -5,6 +5,7 @@ import './vector-display.css';
 
 export default function VectorDisplay() {
     const [isMouseInsideRing, setIsMouseInsideRing] = useState(false);
+    const [isCompleted, setIsCompleted] = useState(false)
 
     const growDot = () => {
         setIsMouseInsideRing(true);
@@ -21,7 +22,8 @@ export default function VectorDisplay() {
             <span className="vector__count">17</span>
             <div 
                 className="vector__ring" 
-                onMouseEnter={growDot} 
+                onMouseDown={growDot} 
+                onMouseUp={shrinkDot}
                 onMouseLeave={shrinkDot}
             >
                 <div className="vector__dot" style={{ width: dotSize, height: dotSize }}></div>
